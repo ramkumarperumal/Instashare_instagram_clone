@@ -1,0 +1,39 @@
+.slick-container {
+  width: 80%;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 48px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.story-item-container {
+}
+
+.story-item-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  margin: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .story-item-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+}
+
+.story-item-para {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(38, 38, 38, 1);
+}

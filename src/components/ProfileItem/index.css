@@ -1,0 +1,340 @@
+.profile-item-container {
+  width: 100%;
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 24px;
+  background-color: rgba(250, 250, 250, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .profile-item-container {
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+    margin-top: 32px;
+  }
+}
+
+.profile-item-name-sm {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: rgba(38, 38, 38, 1);
+  padding-left: 28px;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-item-name-sm {
+    display: none;
+  }
+}
+
+.profile-item-card-container {
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .profile-item-card-container {
+    padding-left: 24px;
+    align-items: center;
+  }
+}
+
+.profile-item-profile-img {
+  height: 96px;
+  width: 96px;
+  border-radius: 48px;
+  margin-right: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-item-profile-img {
+    height: 180px;
+    width: 180px;
+    border-radius: 90px;
+    margin-right: 64px;
+  }
+}
+
+.profile-item-card-name-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-item-card-name-md {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0em;
+  color: rgba(38, 38, 38, 1);
+  margin: 0px;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .profile-item-card-name-md {
+    display: none;
+  }
+}
+
+.profile-item-card-follower-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-item-card-follower-container {
+    width: 330px;
+  }
+}
+
+.profile-item-card-follow-item {
+  text-align: center;
+  margin-right: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-item-card-follow-item {
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+  }
+}
+
+.profile-item-card-follow-para {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0px;
+}
+
+.profile-item-card-follow-span {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-weight: 500;
+  margin: 0px;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-item-card-follow-para {
+    font-size: 16px;
+  }
+}
+
+.profile-item-card-bio-container-md {
+  margin-bottom: 48px;
+}
+
+@media screen and (max-width: 767px) {
+  .profile-item-card-bio-container-md {
+    display: none;
+  }
+}
+
+.profile-item-card-bio-container-sm {
+  padding-left: 24px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-item-card-bio-container-sm {
+    display: none;
+  }
+}
+
+.profile-item-card-username {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: rgba(38, 38, 38, 1);
+  margin-bottom: 16px;
+}
+
+.profile-item-card-bio {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: rgba(38, 38, 38, 1);
+  margin-bottom: 16px;
+}
+
+.profile-item-story-container {
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .profile-item-story-container {
+    padding-left: 24px;
+  }
+}
+
+.profile-item-story-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 86px;
+  width: 86px;
+  border-radius: 43px;
+  border: 1px solid rgba(219, 219, 219, 1);
+  margin-right: 32px;
+}
+
+.profile-item-story-img {
+  height: 78px;
+  width: 78px;
+  border-radius: 36px;
+}
+
+@media screen and (max-width: 767px) {
+  .profile-item-story-item {
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
+    margin-right: 12px;
+  }
+  .profile-item-story-img {
+    height: 56px;
+    width: 56px;
+    border-radius: 28px;
+  }
+}
+
+.profile-item-hr {
+  color: rgba(198, 198, 200, 1);
+}
+
+.profile-item-post-name-container {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .profile-item-post-name-container {
+    padding-left: 24px;
+  }
+}
+
+.profile-item-grid-icon {
+  height: 24px;
+  width: 24px;
+  color: rgba(38, 38, 38, 1);
+  margin-right: 12px;
+}
+
+@media screen and (max-width: 767px) {
+  .profile-item-grid-icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 4px;
+  }
+}
+
+.profile-item-post-name {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  color: rgba(38, 38, 38, 1);
+}
+
+@media screen and (max-width: 767px) {
+  .profile-item-post-name {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+.profile-item-post-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.profile-item-post-item {
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.profile-item-post-item-img {
+  height: 330px;
+  width: 330px;
+}
+
+@media screen and (max-width: 767px) {
+  .profile-item-post-item {
+    margin-right: 3px;
+    margin-bottom: 4px;
+  }
+  .profile-item-post-item-img {
+    height: 118px;
+    width: 118px;
+  }
+}
+
+.profile-item-no-post-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.profile-item-no-post-icon-container {
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+  border: 1.12px solid rgba(38, 38, 38, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .profile-item-no-post-icon-container {
+    height: 86px;
+    width: 86px;
+    border-radius: 43px;
+  }
+}
+
+.profile-item-no-post-icon {
+  height: 29.02px;
+  width: 26.79px;
+  color: rgba(38, 38, 38, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .profile-item-no-post-icon {
+    height: 48px;
+    width: 48px;
+  }
+}
+
+.profile-item-no-post-para {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+  color: rgba(38, 38, 38, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .profile-item-no-post-para {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
